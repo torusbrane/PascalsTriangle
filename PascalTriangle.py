@@ -10,7 +10,7 @@ def pascal_triangle():
         start_row_count += 2
         wht_spc2 = str(start_row_count)
         new_start_row = start_row_count - 1
-        wht_spc3 = str(' ' * new_start_row)
+        #wht_spc3 = str(' ' * new_start_row)
         wht_spc4 = str(new_start_row + first_num)
         if i < 1:
             print(wht_spc + str(first_num) + wht_spc2 + str(first_num))
@@ -23,5 +23,4 @@ init_wht_spc = str(' ' * row_count)
 
 print(init_wht_spc + "1")     
 pascal_triangle()
-
-#ADDED WHITE SPACE 4 AND USED THAT INSTEAD OF WHITE SPACE 3
+print("Pascal's Triangle code is finished!")
