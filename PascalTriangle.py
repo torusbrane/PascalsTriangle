@@ -10,7 +10,7 @@ def pascal_triangle():
         start_row_count += 2
         wht_spc2 = str(start_row_count)
         new_start_row = start_row_count - 1
-        # wht_spc3 = str(' ' * new_start_row)
+        wht_spc3 = str(' ' * new_start_row)
         wht_spc4 = str(new_start_row + first_num)
         if i < 1:
             print(wht_spc + str(first_num) + wht_spc2 + str(first_num))
